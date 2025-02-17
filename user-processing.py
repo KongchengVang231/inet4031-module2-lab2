@@ -11,7 +11,7 @@ def main():
     #open the user list file
     try:
 
-        userFile = open("c:/Users/kongv/inet4031-module1-introduction/list-of-users.txt", "r")
+        userFile = open("list-of-users.txt", "r")
 
     except:
         print("\nCould not read the file specified.\n")
